@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+        "type": "java",
+        "name": "App",
+        "request": "launch",
+        "mainClass": "App",
+        "projectName": "independent-project-ngeor26_84d8e60c",
+        "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+        "type": "java",
+        "name": "MainApp",
+        "request": "launch",
+        "mainClass": "MainApp",
+        "projectName": "minesweeper-ngeor26_1547d77a",
+        "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+        "type": "java",
+        "name": "MainApp",
+        "request": "launch",
+        "mainClass": "MainApp",
+        "projectName": "mingesweeper-ngeor26",
+        "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+    }
+]
+}
